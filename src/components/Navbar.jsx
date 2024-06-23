@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
+import Aman_resume from "../../Aman_FS.pdf";
 import { logo, menu, close, Octocat } from "../assets";
 
 const Navbar = () => {
@@ -61,6 +62,15 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a
+            className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+            href={Aman_resume}
+            download="AmanJain"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -91,6 +101,15 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <a
+                className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+                href={Aman_resume}
+                download="AmanJain"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
             </ul>
           </div>
         </div>
