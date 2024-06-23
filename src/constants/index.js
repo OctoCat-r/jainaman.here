@@ -158,62 +158,36 @@ const experiences = [
       "Conducted comprehensive testing using Jest and Enzyme, ensuring robust functionality and reducing bugs in production.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
   {
     name: "Instagram",
-    link: "",
+    link: "https://www.instagram.com/jainaman26/",
     image: instagram,
     size: "w-24 h-24",
   },
   {
     name: "Gmail",
-    link: "",
+    link: "mailto:amangodha26@gmail.com",
     image: gmail,
     size: "w-24 h-24",
   },
   {
     name: "X",
-    link: "",
+    link: "https://x.com/octocatr26",
     image: x,
     size: "w-40 h-40",
   },
   {
     name: "Linkedin",
-    link: "",
+    link: "www.linkedin.com/in/aman-2610-jain",
     image: linkedin,
     size: "w-24 h-24",
   },
   {
     name: "GitHub",
-    link: "",
+    link: "https://github.com/OctoCat-r",
     image: github1,
     size: "w-24 h-24",
   },

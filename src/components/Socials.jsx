@@ -12,7 +12,7 @@ const FeedbackCard = ({ index, name, link, image, size }) => (
     variants={slideIn("", "spring", index * 0.5, 0.75)}
     className=" p-10 rounded-3xl w-full"
   >
-    <a href={link}>
+    <a href={link} target="_blank">
       <img
         src={image}
         alt={`feedback_by-${name}`}
